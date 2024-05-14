@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #be1a1a;
+}
+
+.balance {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="number"],
+button {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.list li {
+    border-bottom: 1px solid #050303;
+    padding: 10px 0;
+}
+
+.list li:last-child {
+    border-bottom: none;
+}
